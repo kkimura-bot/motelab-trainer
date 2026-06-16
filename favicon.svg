@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="MOTE LAB">
+  <rect width="32" height="32" fill="white"/>
+  <!-- 4 ascending parallelogram bars: 3 navy + 1 gold -->
+  <polygon points="4,28 8,28 8,20 4,23"    fill="#1F3A5F"/>
+  <polygon points="10,28 14,28 14,16 10,19" fill="#1F3A5F"/>
+  <polygon points="16,28 20,28 20,11 16,14" fill="#1F3A5F"/>
+  <polygon points="22,28 26,28 26,5  22,9"  fill="#C8A04D"/>
+</svg>

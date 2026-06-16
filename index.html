@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2K48EE3JNS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2K48EE3JNS');
+</script>
   <meta charset="UTF-8">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/icon-192.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MOTE LAB — 女性トレーナー募集</title>
   <meta name="description" content="あなたの繊細さは、才能です。人の機微に気づける目を、仕事にしませんか。MOTE LAB 女性トレーナー募集。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://trainer.mote-lab.group/">
+  <meta property="og:title" content="女性トレーナー募集｜MOTE LAB">
+  <meta property="og:description" content="あなたの繊細さは、才能です。人の機微に気づける目を、仕事にしませんか。リモートから始められる、新しい専門職。">
+  <meta property="og:image" content="https://trainer.mote-lab.group/images/hero.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="女性トレーナー募集｜MOTE LAB">
+  <meta name="twitter:description" content="あなたの繊細さは、才能です。人の機微に気づける目を、仕事にしませんか。リモートから始められる、新しい専門職。">
+  <meta name="twitter:image" content="https://trainer.mote-lab.group/images/hero.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -1498,6 +1518,23 @@
         transition-duration: 0.01ms !important;
       }
     }
+
+    /* ---- Apply form ---- */
+    .apply-form{max-width:540px;margin:0 auto;background:#fff;border-radius:var(--radius-md);padding:30px 26px;box-shadow:0 10px 40px rgba(36,58,48,.28);text-align:left;}
+    .apply-form .row{margin-bottom:18px;}
+    .apply-form label{display:block;font-size:13px;font-weight:700;color:var(--green);margin-bottom:7px;}
+    .apply-form .rq{color:var(--terracotta);font-size:11px;margin-left:5px;}
+    .apply-form .op{color:var(--muted);font-size:11px;margin-left:5px;}
+    .apply-form input,.apply-form select,.apply-form textarea{width:100%;font-family:var(--font-sans);font-size:15px;color:var(--text);border:1.5px solid var(--line);border-radius:10px;padding:12px 13px;background:#fff;}
+    .apply-form input:focus,.apply-form select:focus,.apply-form textarea:focus{outline:none;border-color:var(--terracotta);}
+    .apply-form textarea{min-height:96px;resize:vertical;line-height:1.7;}
+    .apply-form .consent{display:flex;gap:9px;align-items:flex-start;font-size:12.5px;color:var(--muted);line-height:1.7;}
+    .apply-form .consent input{width:17px;height:17px;margin-top:3px;flex:0 0 auto;accent-color:var(--green);}
+    .apply-form .consent a{color:var(--green);}
+    .apply-form .submit{width:100%;margin-top:6px;cursor:pointer;}
+    .cta-line{margin-top:24px;}
+    .cta-line__lead{font-size:13px;color:rgba(250,247,242,0.7);margin-bottom:11px;}
+    .cta-line__btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#06C755;color:#fff;padding:13px 28px;border-radius:99px;font-size:15px;font-weight:700;text-decoration:none;box-shadow:0 4px 14px rgba(6,199,85,.32);}
   </style>
 </head>
 <body>
@@ -1516,6 +1553,7 @@
         <li><a href="#work-steps">仕事内容</a></li>
         <li><a href="#safety">安全の設計</a></li>
         <li><a href="#requirements">求める人</a></li>
+        <li><a href="#conditions">待遇</a></li>
         <li><a href="#flow">応募フロー</a></li>
       </ul>
       <a href="#cta" class="nav__cta">応募する</a>
@@ -2029,23 +2067,6 @@
         「気になる」程度で、ぜひ応募してください。<br>
         面談で話した上で、お互いに合意してから始めます。
       </p>
-      <style>
-        .apply-form{max-width:540px;margin:0 auto;background:#fff;border-radius:var(--radius-md);padding:30px 26px;box-shadow:0 10px 40px rgba(36,58,48,.28);text-align:left;}
-        .apply-form .row{margin-bottom:18px;}
-        .apply-form label{display:block;font-size:13px;font-weight:700;color:var(--green);margin-bottom:7px;}
-        .apply-form .rq{color:var(--terracotta);font-size:11px;margin-left:5px;}
-        .apply-form .op{color:var(--muted);font-size:11px;margin-left:5px;}
-        .apply-form input,.apply-form select,.apply-form textarea{width:100%;font-family:var(--font-sans);font-size:15px;color:var(--text);border:1.5px solid var(--line);border-radius:10px;padding:12px 13px;background:#fff;}
-        .apply-form input:focus,.apply-form select:focus,.apply-form textarea:focus{outline:none;border-color:var(--terracotta);}
-        .apply-form textarea{min-height:96px;resize:vertical;line-height:1.7;}
-        .apply-form .consent{display:flex;gap:9px;align-items:flex-start;font-size:12.5px;color:var(--muted);line-height:1.7;}
-        .apply-form .consent input{width:17px;height:17px;margin-top:3px;flex:0 0 auto;accent-color:var(--green);}
-        .apply-form .consent a{color:var(--green);}
-        .apply-form .submit{width:100%;margin-top:6px;cursor:pointer;}
-        .cta-line{margin-top:24px;}
-        .cta-line__lead{font-size:13px;color:rgba(250,247,242,0.7);margin-bottom:11px;}
-        .cta-line__btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#06C755;color:#fff;padding:13px 28px;border-radius:99px;font-size:15px;font-weight:700;text-decoration:none;box-shadow:0 4px 14px rgba(6,199,85,.32);}
-      </style>
       <form name="trainer-apply" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" class="apply-form">
         <input type="hidden" name="form-name" value="trainer-apply" />
         <p hidden><label>記入しないでください: <input name="bot-field" /></label></p>
@@ -2079,7 +2100,7 @@
         <div>
           <p class="footer__logo">MOTE LAB</p>
           <p class="footer__tagline">魅力を、可視化する。</p>
-          <p class="footer__company-name">株式会社MoteLab</p>
+          <p class="footer__company-name">株式会社MoteLab（設立準備中）</p>
         </div>
         <ul class="footer__nav">
           <li><a href="https://hp.mote-lab.group" target="_blank" rel="noopener">MOTE LAB 本体サイト</a></li>
@@ -2093,7 +2114,7 @@
         </ul>
       </div>
       <div class="footer__bottom">
-        <p class="footer__copy">&copy; 2026 MoteLab Inc. All rights reserved.</p>
+        <p class="footer__copy">&copy; 2026 株式会社MoteLab（設立準備中）. All rights reserved.</p>
       </div>
     </div>
   </footer>
